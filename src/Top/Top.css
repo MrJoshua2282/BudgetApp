@@ -1,0 +1,22 @@
+.top-div {
+    display: grid;
+   justify-items: center;
+}
+
+.top-date,
+.top-amount {
+    text-align: center;
+    margin: 1rem 0;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: max-content;
+}
+
+.top-date {
+    font-size: 1rem;
+    padding: .5rem;
+}
+
+.top-amount {
+    font-size: 1.75rem;
+    padding: 3rem;
+}
