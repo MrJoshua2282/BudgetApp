@@ -20,30 +20,6 @@ class App extends Component {
     document.querySelector('.inputBar-description').focus();
 
     document.body.addEventListener('keydown', this.addListItemHandler);
-
-    document.querySelector('.inputBar-description').classList.add('incomeStyle');
-    document.querySelector('.inputBar-input').classList.add('incomeStyle');
-    document.querySelector('.inputBar-btn').classList.add('incomeStyle');
-  }
-
-  componentDidUpdate() {
-    if (this.state.type === 'income') {
-      document.querySelector('.inputBar-description').classList.remove('expenseStyle');
-      document.querySelector('.inputBar-input').classList.remove('expenseStyle');
-      document.querySelector('.inputBar-btn').classList.remove('expenseStyle');
-
-      document.querySelector('.inputBar-description').classList.add('incomeStyle');
-      document.querySelector('.inputBar-input').classList.add('incomeStyle');
-      document.querySelector('.inputBar-btn').classList.add('incomeStyle');
-    } else {
-      document.querySelector('.inputBar-description').classList.remove('incomeStyle');
-      document.querySelector('.inputBar-input').classList.remove('incomeStyle');
-      document.querySelector('.inputBar-btn').classList.remove('incomeStyle');
-
-      document.querySelector('.inputBar-description').classList.add('expenseStyle');
-      document.querySelector('.inputBar-input').classList.add('expenseStyle');
-      document.querySelector('.inputBar-btn').classList.add('expenseStyle');
-    }
   }
 
   addListItemHandler = (event) => {
@@ -84,8 +60,10 @@ class App extends Component {
       <div className="App">
         <div className='container'>
           <Top changed={e => this.setState({ total: e.target.value })} total={this.state.total} />
+
           <InputBar type={this.state.type} description={this.state.description} value={this.state.value} changeType={e => this.setState({ type: e.target.value })} changeDescription={e => this.setState({ description: e.target.value })} changeValue={e => this.setState({ value: e.target.value })} clicked={this.addListItemHandler} />
         </div>
+
         <ListContainer iArr={this.state.incomeArr} eArr={this.state.expenseArr} deleteItem={this.deleteListItemHandler} />
       </div>
     );

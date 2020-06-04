@@ -50,17 +50,6 @@
 .inputBar-btn:active {
     background-color: rgb(172, 200, 236);
 }
-/* #income:focus, .inputBar-input, .inputBar-btn, .inputBar-description {
-    border: 5px solid rgb(10, 161, 43);
-} */
-
-/* #income:focus .inputBar-input .inputBar-btn .inputBar-description {
-    border-color: rgb(10, 161, 43);
-} */
-
-/* #expense:focus .inputBar-input.inputBar-btn.inputBar-description  {
-    border-color: lightcoral;
-} */
 
 .expenseStyle {
     border-color: lightcoral;
