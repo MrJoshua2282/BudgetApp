@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/BudgetApp/static/css/main.816e02d2.chunk.css",
-    "main.js": "/BudgetApp/static/js/main.cfb7912f.chunk.js",
-    "main.js.map": "/BudgetApp/static/js/main.cfb7912f.chunk.js.map",
+    "main.js": "/BudgetApp/static/js/main.a2572f38.chunk.js",
+    "main.js.map": "/BudgetApp/static/js/main.a2572f38.chunk.js.map",
     "runtime-main.js": "/BudgetApp/static/js/runtime-main.0d0d215d.js",
     "runtime-main.js.map": "/BudgetApp/static/js/runtime-main.0d0d215d.js.map",
     "static/js/2.94ec12dd.chunk.js": "/BudgetApp/static/js/2.94ec12dd.chunk.js",
     "static/js/2.94ec12dd.chunk.js.map": "/BudgetApp/static/js/2.94ec12dd.chunk.js.map",
     "index.html": "/BudgetApp/index.html",
-    "precache-manifest.1b5494095efbc7f56264c5724fc8f0a5.js": "/BudgetApp/precache-manifest.1b5494095efbc7f56264c5724fc8f0a5.js",
+    "precache-manifest.79edfaba52b483c325b96a6a2053f54a.js": "/BudgetApp/precache-manifest.79edfaba52b483c325b96a6a2053f54a.js",
     "service-worker.js": "/BudgetApp/service-worker.js",
     "static/css/main.816e02d2.chunk.css.map": "/BudgetApp/static/css/main.816e02d2.chunk.css.map",
     "static/js/2.94ec12dd.chunk.js.LICENSE.txt": "/BudgetApp/static/js/2.94ec12dd.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.0d0d215d.js",
     "static/js/2.94ec12dd.chunk.js",
     "static/css/main.816e02d2.chunk.css",
-    "static/js/main.cfb7912f.chunk.js"
+    "static/js/main.a2572f38.chunk.js"
   ]
 }
